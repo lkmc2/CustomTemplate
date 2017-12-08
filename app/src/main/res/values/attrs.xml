@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="HeaderBar"> <!-- 声明样式HeaderBar-->
+        <attr name="titleText" format="string"/> <!--标题文字-->
+        <attr name="titleTextSize" format="dimension"/> <!--标题文字大小-->
+        <attr name="titleTextColor" format="color"/> <!--标题文字颜色-->
+
+        <attr name="leftButtonText" format="string"/> <!--左边按钮文字-->
+        <attr name="leftButtonTextSize" format="dimension"/> <!--左边按钮文字大小-->
+        <attr name="leftButtonBackground" format="reference|color"/> <!--左边按钮背景-->
+
+        <attr name="rightButtonText" format="string"/> <!--右边按钮文字-->
+        <attr name="rightButtonTextSize" format="dimension"/> <!--右边按钮文字大小-->
+        <attr name="rightButtonBackground" format="reference|color"/> <!--右边按钮背景-->
+    </declare-styleable>
+</resources>

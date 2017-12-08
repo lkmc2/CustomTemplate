@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="linchange.com.customtemplate.MainActivity">
+
+    <linchange.com.customtemplate.HeaderBar
+        android:id="@+id/headerBar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:titleText="中间文字"
+        app:titleTextSize="16sp"
+        app:titleTextColor="#fff"
+        app:leftButtonText="左按钮"
+        app:leftButtonTextSize="10sp"
+        app:leftButtonBackground="@mipmap/ic_launcher"
+        app:rightButtonText="右按钮"
+        app:rightButtonTextSize="10sp"
+        app:rightButtonBackground="@mipmap/ic_launcher">
+
+    </linchange.com.customtemplate.HeaderBar>
+
+</LinearLayout>
